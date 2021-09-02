@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 3</title>
+</head>
+<style>
+header {
+  background-color: rgb(177, 240, 126);
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: rgb(177, 240, 126);
+  padding: 10px;
+  
+  text-align: center;
+  color: black;
+}
+
+</style>
+<body>
+    <header>
+        <h2>Yhis is Web Page Main title</h2>
+      </header>
+      
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Menu</h2>
+          HTML <br>PHP <br>Perl ..
+          
+        </div>
+        <div class="column" style="background-color:lightgrey;">
+          <p>Technical and Managerial Turorials</p>
+        </div>
+      </div>
+      
+      <footer>
+        <p>MySite</p>
+      </footer>
+      
+</body>
+</html>
