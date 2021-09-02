@@ -1,0 +1,108 @@
+.top{
+    height: 80px;
+    padding: 10px;
+    background-color: #333333;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .nav a {
+    display: block;
+    padding: 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    
+  }
+ 
+  .nav{
+      background-color: #666666;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 70%;
+  }
+  
+  .right {
+    width: 30%;
+   
+  }
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .logo{
+      /* padding-left: 50%; */
+     /* margin-left: 100px; */
+     /* margin-top: 50px; */
+      /* padding: 50px; */
+      height: 200px;
+      width: 200px;
+      background-color: #dddddd;
+  }
+
+  .content{
+      padding: 30px;
+  }
+
+  .side {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+  }
+  
+  
+  .content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .sidebar{
+      padding-top: 70px;
+  }
+
+  .orange{
+    text-decoration: none;
+    color: #f2871f;
+  }
+
+
+.bottom
+{
+  height: 80px;
+  padding: 30px;
+  background-color: #333333;
+  text-align: center;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.last{
+  color: #f2871f;
+}
